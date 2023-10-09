@@ -1,0 +1,13 @@
+git init
+git config --global user.name "Yasaswini38"
+git config --global user.email "Yasaswini.padamati1007@gmail.com"
+git config --list
+cd desktop
+cd my_git_repo
+git add Helloworld.py
+git status
+git commit -m "This file is Python file"
+git branch -M main
+git remote add origin https://github.com/Yasaswini38/Repo1.git
+git push -u origin main
+git push -f origin main
